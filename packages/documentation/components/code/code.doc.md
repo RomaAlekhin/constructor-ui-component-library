@@ -1,15 +1,11 @@
 Short description for Code component...
 
-:::info Figma component anatomy
-https://www.figma.com/file/
-:::
-
 ## Basic usage
 
 <CodeBasic />
 
 ::: details Source code
-<<< ../../../demos/src/code/CodeBasic.vue
+<<< ../../../examples/demos/code/CodeBasic.vue
 :::
 
 ## Related components

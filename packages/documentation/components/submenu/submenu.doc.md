@@ -1,15 +1,11 @@
 Short description for Submenu component...
 
-:::info Figma component anatomy
-https://www.figma.com/file/
-:::
-
 ## Basic usage
 
 <SubmenuBasic />
 
 ::: details Source code
-<<< ../../../demos/src/submenu/SubmenuBasic.vue
+<<< ../../../examples/demos/submenu/SubmenuBasic.vue
 :::
 
 ## Best practices

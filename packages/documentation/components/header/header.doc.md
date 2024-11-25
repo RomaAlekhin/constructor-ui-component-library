@@ -1,15 +1,11 @@
 Short description for Header component...
 
-:::info Figma component anatomy
-https://www.figma.com/file/
-:::
-
 ## Basic usage
 
 <HeaderBasic />
 
 ::: details Source code
-<<< ../../../demos/src/header/HeaderBasic.vue
+<<< ../../../examples/demos/header/HeaderBasic.vue
 :::
 
 ## Best practices

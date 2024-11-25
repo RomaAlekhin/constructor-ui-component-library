@@ -3,16 +3,12 @@ The table has several modes of operation.
 The overview mode, when the user is working with the entire table, searches and compares the data; and the actions mode when the user is working with one or more selected table items.
 In most cases, for each element of the table, the details mode is available with a detailed display of the properties of the active element.
 
-:::info Figma component anatomy
-https://www.figma.com/file/
-:::
-
 ## Basic usage
 
 <TableBasic />
 
 ::: details Source code
-<<< ../../../demos/src/table/TableBasic.vue
+<<< ../../../examples/demos/table/TableBasic.vue
 :::
 
 ## Empty table

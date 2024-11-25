@@ -131,7 +131,7 @@
           }"
           :selected="name === model"
           variant="ghost"
-          :icon="IconDot16"
+          :source="IconDot16"
           @click="setActive(name)"
         />
       </div>
@@ -163,12 +163,13 @@
       margin-left: var(--acv-carousel-nav-content-gap);
       margin-right: var(--acv-carousel-nav-content-gap);
 
+      /* TODO: fix button colors */
       .button-active {
-        --acv-button-color: var(--acv-carousel-nav-button-icon-color-active);
+        --_acv-button-color: var(--acv-carousel-nav-button-icon-color-active);
       }
 
       .button-available {
-        --acv-button-color: var(--acv-carousel-nav-button-icon-color-available);
+        --_acv-button-color: var(--acv-carousel-nav-button-icon-color-available);
       }
     }
   }

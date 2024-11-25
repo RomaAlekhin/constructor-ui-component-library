@@ -1,8 +1,8 @@
 {
   "name": "@acronis-platform/utils",
   "type": "module",
-  "version": "0.0.1",
-  "private": true,
+  "version": "0.1.1",
+  "description": "Includes UI component library internal utilities",
   "license": "MIT",
   "sideEffects": false,
   "exports": {

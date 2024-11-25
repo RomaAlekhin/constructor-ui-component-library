@@ -5,10 +5,6 @@ It is a visual representation of a checkbox that allows the user to switch betwe
 - Switch has two basic states - On / Off.
 - Like checkboxes, a switch also has several states: focused, disabled, hover and active.
 
-:::info Figma mockups
-https://www.figma.com/design/6nFlVmwDwvGloglQHxyElh/Tokens-test?node-id=592-168382
-:::
-
 ## Basic usage
 
 Bind `v-model` to a `Boolean` typed variable.
@@ -16,7 +12,7 @@ Bind `v-model` to a `Boolean` typed variable.
 <SwitchBasic />
 
 ::: details Source code
-<<< ../../../demos/src/switch/SwitchBasic.vue
+<<< ../../../examples/demos/switch/SwitchBasic.vue
 :::
 
 ## Label
@@ -36,7 +32,7 @@ You can use an array to bind multiple switches to a single variable.
 <SwitchArray />
 
 ::: details Source code
-<<< ../../../demos/src/switch/SwitchArray.vue
+<<< ../../../examples/demos/switch/SwitchArray.vue
 :::
 
 ## Sizes

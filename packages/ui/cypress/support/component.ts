@@ -17,7 +17,9 @@
 import { mount } from 'cypress/vue';
 
 // Ensure global styles are loaded
-import '../../src/styles/public/acronis.css';
+import '../../src/styles/reset.css';
+import '../../src/styles/themes/acronis/acronis.pcss';
+import '../../src/styles/_deprecated_/public/acronis.css';
 
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { addMatchImageSnapshotCommand } from '@simonsmith/cypress-image-snapshot/command';

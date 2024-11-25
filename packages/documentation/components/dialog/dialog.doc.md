@@ -1,9 +1,5 @@
 Informs users while preserving the current page state.
 
-:::info Figma component anatomy
-https://www.figma.com/design/6nFlVmwDwvGloglQHxyElh/Syntax-UI-3.0?node-id=515-8194
-:::
-
 ## Basic usage
 
 Dialog pops up a dialog box, and it's quite customizable.
@@ -15,7 +11,7 @@ Based on design recommendation, the dialog should have minimal sizes: width 512p
 <DialogBasic />
 
 ::: details Source code
-<<< ../../../demos/src/dialog/DialogBasic.vue
+<<< ../../../examples/demos/dialog/DialogBasic.vue
 :::
 
 ## Dialog Size

@@ -2,16 +2,12 @@ Links are used to embedding actions or pathways to more information in a sentenc
 
 In other cases preferable to use ghost buttons.
 
-:::info Figma mockups
-https://www.figma.com/design/6nFlVmwDwvGloglQHxyElh/Tokens-test?node-id=486-15360
-:::
-
 ## Basic usage
 
 <LinkBasic/>
 
 ::: details Source code
-<<< ../../../demos/src/link/LinkBasic.vue
+<<< ../../../examples/demos/link/LinkBasic.vue
 :::
 
 ## Adding click handlers
@@ -23,7 +19,7 @@ If there are both href and click handler, it would trigger both.
 <LinkHandlers/>
 
 ::: details Source code
-<<< ../../../demos/src/link/LinkHandlers.vue
+<<< ../../../examples/demos/link/LinkHandlers.vue
 :::
 
 ## Link with path
@@ -37,7 +33,7 @@ The `link` has to specify the width of the path.
 <LinkWithPath />
 
 ::: details Source code
-<<< ../../../demos/src/link/LinkWithPath.vue
+<<< ../../../examples/demos/link/LinkWithPath.vue
 :::
 
 ## Disabled link
@@ -45,7 +41,7 @@ The `link` has to specify the width of the path.
 <LinkDisabled />
 
 ::: details Source code
-<<< ../../../demos/src/link/LinkDisabled.vue
+<<< ../../../examples/demos/link/LinkDisabled.vue
 :::
 
 ## Link with icon
@@ -53,7 +49,7 @@ The `link` has to specify the width of the path.
 <LinkWithIcon />
 
 ::: details Source code
-<<< ../../../demos/src/link/LinkWithIcon.vue
+<<< ../../../examples/demos/link/LinkWithIcon.vue
 :::
 
 ## Accessibility

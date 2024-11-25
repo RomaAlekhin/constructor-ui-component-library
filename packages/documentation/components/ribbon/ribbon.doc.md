@@ -1,16 +1,12 @@
 Ribbons are used to highlight important information or actions in a page.
 It can be used to highlight a new feature, a promotion, a warning, or a call to action.
 
-:::info Figma component anatomy
-https://www.figma.com/file/
-:::
-
 ## Basic usage
 
 <RibbonBasic />
 
 ::: details Source code
-<<< ../../../demos/src/ribbon/RibbonBasic.vue
+<<< ../../../examples/demos/ribbon/RibbonBasic.vue
 :::
 
 ## Ribbon types

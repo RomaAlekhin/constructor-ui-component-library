@@ -1,15 +1,11 @@
 Short description for FormItem component...
 
-:::info Figma component anatomy
-https://www.figma.com/file/
-:::
-
 ## Basic usage
 
 <FormItemBasic />
 
 ::: details Source code
-<<< ../../../demos/src/form-item/FormItemBasic.vue
+<<< ../../../examples/demos/form-item/FormItemBasic.vue
 :::
 
 ## Best practices

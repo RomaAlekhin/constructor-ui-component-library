@@ -1,0 +1,42 @@
+<script setup>
+  import AcvIcon from '@/components/icon/icon.vue';
+</script>
+
+<template>
+  <AcvIcon
+    name="IconAcronisCloud32"
+    color="brand-primary"
+    size="xxx-large"
+    animation="spin"
+  />
+  <AcvIcon
+    name="IconAcronisCloud32"
+    color="brand-primary"
+    size="xxx-large"
+    animation="wrench"
+  />
+  <AcvIcon
+    name="IconAcronisCloud32"
+    color="brand-primary"
+    size="xxx-large"
+    animation="ring"
+  />
+  <AcvIcon
+    name="IconAcronisCloud32"
+    color="brand-primary"
+    size="xxx-large"
+    animation="pulse"
+  />
+  <AcvIcon
+    name="IconAcronisCloud32"
+    color="brand-primary"
+    size="xxx-large"
+    animation="flash"
+  />
+  <AcvIcon
+    name="IconAcronisCloud32"
+    color="brand-primary"
+    size="xxx-large"
+    animation="float"
+  />
+</template>

@@ -1,4 +1,4 @@
-@layer utilities {
+@layer acv-utilities {
   .acv-icon {
     width: var(--acv-icon-size);
     height: var(--acv-icon-size);

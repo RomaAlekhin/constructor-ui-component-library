@@ -1,18 +1,18 @@
 import { version } from '../../../ui/package.json';
-import { enComponents } from './components';
-import { enExamples } from './examples';
+import { components } from './components';
+import { examples } from './examples';
 import { enGuides } from './guides';
 import { styleguide } from './styleguide.ts';
-import { enTheme } from './theme';
+import { theme } from './theme';
 
 // eslint-disable-next-line node/prefer-global/process
 const isProd = process.env.NODE_ENV === 'production';
 
 export const nav = [
   { text: 'Guide', items: [...enGuides, ...styleguide] },
-  { text: 'Components', items: enComponents },
-  { text: 'Theme', items: enTheme },
-  { text: 'Examples', items: enExamples, devOnly: true },
+  { text: 'Components', items: components },
+  { text: 'Theme', items: theme },
+  { text: 'Examples', items: examples, devOnly: true },
   {
     text: `v${version}`,
     items: [

@@ -4,31 +4,24 @@ It supports multiple variants, sizes, and states.
 
 ## Overview
 
+<ButtonDoc />
+
+## Basic button
+
 <ButtonBasic />
 
 ::: details Source code
-<<< ../../../demos/src/button/ButtonBasic.vue
+<<< ../../../examples/demos/button/ButtonBasic.vue
 :::
 
-## Types
+## Variants
+
+The `AcvButton` comes with five variants: primary (default), secondary, ghost, status and inverted.
 
 <ButtonDocTypes />
 
 ::: details Source code
-<<< ../../../demos/src/button/ButtonDocTypes.vue
-:::
-
-## States
-
-Buttons can have different states.
-They support `active`, `focus`, `hover`, and `disabled` states.
-
-Use `disabled=true` to disable button.
-
-<ButtonStates />
-
-::: details Source code
-<<< ../../../demos/src/button/ButtonStates.vue
+<<< ../../../examples/demos/button/ButtonDocTypes.vue
 :::
 
 ### Default state
@@ -84,16 +77,8 @@ Button content will be disabled and visually hidden while loading.
 <ButtonWithLoading />
 
 ::: details Source code
-<<< ../../../demos/src/button/ButtonWithLoading.vue
+<<< ../../../examples/demos/button/ButtonWithLoading.vue
 :::
-
-### Success state
-
-Using success state is a good way to indicate that the action was successful.
-
-Use the `success` prop to show a success state.
-
-<ButtonStateSuccess />
 
 ## Sizing
 
@@ -102,36 +87,36 @@ Use `size=large` to specify bigger buttons.
 <ButtonDocSizes />
 
 ::: details Source code
-<<< ../../../demos/src/button/ButtonDocSizes.vue
+<<< ../../../examples/demos/button/ButtonDocSizes.vue
 :::
 
 ## With icons
 
-Use `icon` and `prepend-icon` props to add icons to buttons.
+Use `prepend` and `append` slots to add icons to buttons.
 Also, you can use inline icons in default slot.
 
 <ButtonDocWithIcons />
 
 ::: details Source code
-<<< ../../../demos/src/button/ButtonDocWithIcons.vue
+<<< ../../../examples/demos/button/ButtonDocWithIcons.vue
 :::
 
 ## Button types
 
 By default `<acv-button>` renders a `<button>` element.
-You can change the type of the button by setting the `buttonType` prop.
+You can change the variant of the button by setting the `variant` prop.
 Also, you can render a `<a>` element by setting the `href` prop.
 You may generate router-links by setting the `to` prop.
 
 :::tip
-Type prop is only available when the button is rendered as a `<button>` element.
+Variant prop is only available when the button is rendered as a `<button>` element.
 It is ignored when either _href_ or _to_ props are set.
 :::
 
 <ButtonTypes />
 
 ::: details Source code
-<<< ../../../demos/src/button/ButtonTypes.vue
+<<< ../../../examples/demos/button/ButtonTypes.vue
 :::
 
 ## With single icon
@@ -139,7 +124,7 @@ It is ignored when either _href_ or _to_ props are set.
 <ButtonWithSingleIcon />
 
 ::: details Source code
-<<< ../../../demos/src/button/ButtonWithSingleIcon.vue
+<<< ../../../examples/demos/button/ButtonWithSingleIcon.vue
 :::
 
 ## Block buttons
@@ -150,7 +135,7 @@ Set up the `block` prop to make the button full width.
 <ButtonBlock />
 
 ::: details Source code
-<<< ../../../demos/src/button/ButtonBlock.vue
+<<< ../../../examples/demos/button/ButtonBlock.vue
 :::
 
 ## Accessibility

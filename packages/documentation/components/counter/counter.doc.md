@@ -1,15 +1,11 @@
 Short description for Counter component...
 
-:::info Figma component anatomy
-https://www.figma.com/file/
-:::
-
 ## Basic usage
 
 <CounterBasic />
 
 ::: details Source code
-<<< ../../../demos/src/counter/CounterBasic.vue
+<<< ../../../examples/demos/counter/CounterBasic.vue
 :::
 
 ## Best practices

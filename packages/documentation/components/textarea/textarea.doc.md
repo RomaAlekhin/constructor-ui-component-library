@@ -1,15 +1,11 @@
 Short description for Textarea component...
 
-:::info Figma component anatomy
-https://www.figma.com/file/
-:::
-
 ## Basic usage
 
 <TextareaBasic />
 
 ::: details Source code
-<<< ../../../demos/src/textarea/TextareaBasic.vue
+<<< ../../../examples/demos/textarea/TextareaBasic.vue
 :::
 
 ## Disabled

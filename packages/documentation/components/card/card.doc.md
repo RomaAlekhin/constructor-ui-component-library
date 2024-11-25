@@ -1,16 +1,12 @@
 Used to group information into logical blocks.
 Any content (text blocks, form elements, buttons, collapses, icons, and illustrations) can be located inside the card.
 
-:::info Figma mockups
-https://www.figma.com/design/6nFlVmwDwvGloglQHxyElh/Tokens-test?node-id=587-56795
-:::
-
 ## Basic usage
 
 <CardBasic />
 
 ::: details Source code
-<<< ../../../demos/src/card/CardBasic.vue
+<<< ../../../examples/demos/card/CardBasic.vue
 :::
 
 ## Variants
@@ -22,7 +18,7 @@ https://www.figma.com/design/6nFlVmwDwvGloglQHxyElh/Tokens-test?node-id=587-5679
 <CardBorders />
 
 ::: details
-<<< ../../../demos/src/card/CardBorders.vue
+<<< ../../../examples/demos/card/CardBorders.vue
 :::
 
 ### Background Colors
@@ -30,5 +26,5 @@ https://www.figma.com/design/6nFlVmwDwvGloglQHxyElh/Tokens-test?node-id=587-5679
 <CardBackground />
 
 ::: details
-<<< ../../../demos/src/card/CardBackground.vue
+<<< ../../../examples/demos/card/CardBackground.vue
 :::

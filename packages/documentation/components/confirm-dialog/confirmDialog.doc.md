@@ -1,15 +1,11 @@
 Short description for ConfirmDialog component...
 
-:::info Figma component anatomy
-https://www.figma.com/file/
-:::
-
 ## Basic usage
 
 <ConfirmDialogBasic />
 
 ::: details Source code
-<<< ../../../demos/src/confirm-dialog/ConfirmDialogBasic.vue
+<<< ../../../examples/demos/confirm-dialog/ConfirmDialogBasic.vue
 :::
 
 ## Best practices

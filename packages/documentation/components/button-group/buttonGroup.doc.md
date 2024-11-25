@@ -3,16 +3,12 @@ There are two behaviors for Button group.
 Multiple choice, which is equivalent to selecting multiple Checkbox and single selection, which is equivalent to selecting from several Radio button.
 In the default state, none of the parameters are selected.
 
-:::info Figma component anatomy
-https://www.figma.com/file/AOtI028uCFzAmnADVCz872/Documentation?node-id=2%3A4
-:::
-
 ## Basic usage
 
 <ButtonGroupBasic />
 
 ::: details Source code
-<<< ../../../demos/src/button-group/ButtonGroupBasic.vue
+<<< ../../../examples/demos/button-group/ButtonGroupBasic.vue
 :::
 
 ## Related components
@@ -23,4 +19,4 @@ https://www.figma.com/file/AOtI028uCFzAmnADVCz872/Documentation?node-id=2%3A4
 
 ## Usage
 
-<<< ../../../demos/src/button-group/ButtonGroupExample.vue
+<<< ../../../examples/demos/button-group/ButtonGroupExample.vue

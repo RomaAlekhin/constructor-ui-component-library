@@ -1,15 +1,11 @@
 Short description for Slider component...
 
-:::info Figma component anatomy
-https://www.figma.com/file/
-:::
-
 ## Basic usage
 
 <SliderBasic />
 
 ::: details Source code
-<<< ../../../demos/src/slider/SliderBasic.vue
+<<< ../../../examples/demos/slider/SliderBasic.vue
 :::
 
 ## Best practices

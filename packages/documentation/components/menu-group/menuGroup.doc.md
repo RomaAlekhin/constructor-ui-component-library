@@ -1,15 +1,11 @@
 Short description for MenuGroup component...
 
-:::info Figma component anatomy
-https://www.figma.com/file/
-:::
-
 ## Basic usage
 
 <MenuGroupBasic />
 
 ::: details Source code
-<<< ../../../demos/src/menu-group/MenuGroupBasic.vue
+<<< ../../../examples/demos/menu-group/MenuGroupBasic.vue
 :::
 
 ## Best practices

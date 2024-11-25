@@ -1,15 +1,11 @@
 Short description for InputBase component...
 
-:::info Figma component anatomy
-https://www.figma.com/file/
-:::
-
 ## Basic usage
 
 <InputBaseBasic />
 
 ::: details Source code
-<<< ../../../demos/src/input-base/InputBaseBasic.vue
+<<< ../../../examples/demos/input-base/InputBaseBasic.vue
 :::
 
 ## Best practices

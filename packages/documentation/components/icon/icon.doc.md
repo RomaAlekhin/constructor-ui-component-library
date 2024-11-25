@@ -2,15 +2,11 @@ Basic sizes, rules for building and using icons.
 Icons can be outlined or bold, it all depends on the specific case.
 But, in most cases, we use outline icons.
 
-:::info Figma mockups
-https://www.figma.com/design/6nFlVmwDwvGloglQHxyElh/Tokens-test?node-id=206-385&m=dev
-:::
-
 ## Usage
 
 <IconExample />
 
-<<< ../../../demos/src/icon/IconExample.vue
+<<< ../../../examples/demos/icon/IconExample.vue
 
 ## Basic usage
 
@@ -29,7 +25,7 @@ The naming convention
 <IconBasic />
 
 ::: details Source code
-<<< ../../../demos/src/icon/IconBasic.vue
+<<< ../../../examples/demos/icon/IconBasic.vue
 :::
 
 ## Monochrome icons
@@ -60,4 +56,4 @@ The naming convention
 
 The icons are tree-shakable, so only the icons that are used in the project will be included in the final bundle.
 
-<<< ../../../demos/src/icon/IconTreeShaking.vue
+<<< ../../../examples/demos/icon/IconTreeShaking.vue

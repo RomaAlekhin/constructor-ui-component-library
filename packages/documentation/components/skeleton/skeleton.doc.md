@@ -1,15 +1,11 @@
 Short description for skeleton component...
 
-:::info Figma component anatomy
-https://www.figma.com/file/
-:::
-
 ## Basic usage
 
 <skeletonBasic />
 
 ::: details Source code
-<<< ../../../demos/src/skeleton/SkeletonBasic.vue
+<<< ../../../examples/demos/skeleton/SkeletonBasic.vue
 :::
 
 ## Variants

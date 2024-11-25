@@ -1,15 +1,11 @@
 Short description for toolbar component...
 
-:::info Figma component anatomy
-https://www.figma.com/file/
-:::
-
 ## Basic usage
 
 <ToolbarBasic />
 
 ::: details Source code
-<<< ../../../demos/src/toolbar/ToolbarBasic.vue
+<<< ../../../examples/demos/toolbar/ToolbarBasic.vue
 :::
 
 ## Variants

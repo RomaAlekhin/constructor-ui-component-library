@@ -5,16 +5,12 @@
   the vertical accordion item size becomes dependent on the amount of content.
 - Hidden content is displayed by clicking on the arrow or throughout the entire block.
 
-:::info Figma mockups
-https://www.figma.com/file/AOtI028uCFzAmnADVCz872/Documentation?node-id=2%3A6
-:::
-
 ## Basic usage
 
 <AccordionBasic />
 
 ::: details Source code
-<<< ../../../demos/src/accordion/AccordionBasic.vue
+<<< ../../../examples/demos/accordion/AccordionBasic.vue
 :::
 
 ## Sizes

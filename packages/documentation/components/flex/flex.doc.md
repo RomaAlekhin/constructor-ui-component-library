@@ -1,15 +1,11 @@
 Short description for Flex component...
 
-:::info Figma component anatomy
-https://www.figma.com/file/
-:::
-
 ## Basic usage
 
 <FlexBasic />
 
 ::: details Source code
-<<< ../../../demos/src/flex/FlexBasic.vue
+<<< ../../../examples/demos/flex/FlexBasic.vue
 :::
 
 ## Variants

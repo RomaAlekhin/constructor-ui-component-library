@@ -1,10 +1,6 @@
 Grids are used to layout content in a consistent way
 They are made up of columns and rows that can be used to create a variety of layouts.
 
-:::info Figma component anatomy
-https://www.figma.com/file/
-:::
-
 ## Basic usage
 
 Create basic grid layout using columns.
@@ -14,7 +10,7 @@ With `row` and `col`, we can easily manipulate the layout using the `span` attri
 <GridBasic />
 
 ::: details Source code
-<<< ../../../demos/src/grid/GridBasic.vue
+<<< ../../../examples/demos/grid/GridBasic.vue
 :::
 
 ## Column spacing
@@ -26,7 +22,7 @@ Row provides `gutter` attribute to specify spacings between columns, and its def
 <RowColumnSpacing />
 
 ::: details Source code
-<<< ../../../demos/src/row/RowColumnSpacing.vue
+<<< ../../../examples/demos/row/RowColumnSpacing.vue
 :::
 
 ## Hybrid layout

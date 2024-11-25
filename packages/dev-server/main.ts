@@ -1,6 +1,7 @@
-import '@/styles/public/themes.css';
+import "@/styles/reset.css";
+import "@/styles/themes/acronis/acronis.pcss";
 import { createApp } from 'vue';
-// import theme from '../demos/src/theme/theme.vue';
+// import theme from '../examples/demos/theme/theme.vue';
 
 const isDark = localStorage.getItem('uikit-docs-theme-prefer-dark');
 const isRtl = localStorage.getItem('uikit-docs-direction-prefer-rtl');

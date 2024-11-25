@@ -4,11 +4,11 @@ import { readdir, stat } from 'node:fs/promises';
 import process from 'node:process';
 import { defineConfig } from 'vite';
 import vue from '@vitejs/plugin-vue';
-import vueJsx from '@vitejs/plugin-vue-jsx';
 import comp from 'unplugin-vue-components/vite';
 import Inspect from 'vite-plugin-inspect';
 import autoprefixer from 'autoprefixer';
 import { kebabCase } from 'lodash-es';
+import postcssMixins from 'postcss-mixins';
 
 if (!process.env.TARGET && process.env.THEME !== 'true') {
   throw new Error('Target component must be specified.');
@@ -88,12 +88,14 @@ export default defineConfig(async () => {
     },
     css: {
       postcss: {
-        plugins: [autoprefixer]
+        plugins: [
+            autoprefixer,
+          postcssMixins()
+        ]
       }
     },
     plugins: [
       vue(),
-      vueJsx(),
       Inspect(),
       comp({
         dts: false,

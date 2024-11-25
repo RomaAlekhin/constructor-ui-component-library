@@ -1,15 +1,11 @@
 Used to display potentially large amounts of information in a cards' manner.
 
-:::info Figma component anatomy
-https://www.figma.com/file/
-:::
-
 ## Basic usage
 
 <TilesBasic />
 
 ::: details Source code
-<<< ../../../demos/src/tiles/TilesBasic.vue
+<<< ../../../examples/demos/tiles/TilesBasic.vue
 :::
 
 ## Best practices

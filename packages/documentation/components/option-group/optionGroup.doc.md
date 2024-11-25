@@ -1,15 +1,11 @@
 Short description for OptionGroup component...
 
-:::info Figma component anatomy
-https://www.figma.com/file/
-:::
-
 ## Basic usage
 
 <OptionGroupBasic />
 
 ::: details Source code
-<<< ../../../demos/src/option-group/OptionGroupBasic.vue
+<<< ../../../examples/demos/option-group/OptionGroupBasic.vue
 :::
 
 ## Best practices

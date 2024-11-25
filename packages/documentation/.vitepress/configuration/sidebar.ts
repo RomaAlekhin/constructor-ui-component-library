@@ -1,11 +1,10 @@
-import { enComponents } from './components';
+import { components } from './components';
 import { composables } from './composables';
 import { directives } from './directives';
-import { enExamples } from './examples';
+import { examples } from './examples';
 import { enGuides } from './guides';
 import { styleguide } from './styleguide.ts';
-import { enTheme } from './theme';
-import { widgets } from './widgets';
+import { theme } from './theme';
 
 export const sidebar = {
   '/guide': [
@@ -14,11 +13,10 @@ export const sidebar = {
       items: enGuides,
     },
   ],
-  '/components': enComponents,
+  '/components': components,
   '/directives': directives,
-  '/widgets': widgets,
   '/composables': composables,
   '/styleguide': styleguide,
-  '/examples': enExamples,
-  '/theming': enTheme,
+  '/examples': examples,
+  '/theming': theme,
 };
